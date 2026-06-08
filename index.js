@@ -180,6 +180,6 @@ const server = http.createServer(async (req, res) => {
   res.end('Not found');
 });
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`✅ Mahfazti AI Server running on port ${PORT}`);
 });
